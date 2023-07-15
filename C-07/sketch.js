@@ -1,7 +1,7 @@
 //making tomato row
 for (var i = 50; i < 400; i = i + 50) {
     var onion = createSprite(i, 60, 20, 20);
-    onion.setAnimation("onion");
+    onion.setAnimation("onion"); 
 }
 //making brinjal row
 for (var a = 50; a < 400; a = a + 50) {
