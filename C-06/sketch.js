@@ -1,51 +1,51 @@
-var g1 = createSprite(200, 28, 100, 20);
+let g1 = createSprite(200, 28, 100, 20);
 g1.shapeColor = "yellow";
 
-var g2 = createSprite(200, 372, 100, 20);
+let g2 = createSprite(200, 372, 100, 20);
 g2.shapeColor = "yellow";
 
-var ball = createSprite(200, 200, 10, 10);
+let ball = createSprite(200, 200, 10, 10);
 ball.shapeColor = "white";
 
-var playerm = createSprite(200, 50, 50, 10);
+let playerm = createSprite(200, 50, 50, 10);
 playerm.shapeColor = "black";
 
-var computerm = createSprite(200, 350, 50, 10);
+let computerm = createSprite(200, 350, 50, 10);
 computerm.shapeColor = "black";
 
-var cscore = 0;
-var pscore = 0;
+let cscore = 0;
+let pscore = 0;
 
-var gameState = "serve";
+let gameState = "serve";
 
-var l1 = createSprite(10, 200, 5, 400);
+let l1 = createSprite(10, 200, 5, 400);
 l1.shapeColor = "white";
 
-var l2 = createSprite(390, 200, 5, 400);
+let l2 = createSprite(390, 200, 5, 400);
 l2.shapeColor = "white";
 
-var l3 = createSprite(200, 10, 400, 5);
+let l3 = createSprite(200, 10, 400, 5);
 l3.shapeColor = "white";
 
-var l4 = createSprite(200, 390, 400, 5);
+let l4 = createSprite(200, 390, 400, 5);
 l4.shapeColor = "white";
 
-var l5 = createSprite(200, 150, 400, 5);
+let l5 = createSprite(200, 150, 400, 5);
 l5.shapeColor = "white";
 
-var l6 = createSprite(200, 250, 400, 5);
+let l6 = createSprite(200, 250, 400, 5);
 l6.shapeColor = "white";
 
-var l7 = createSprite(200, 1, 400, 5);
+let l7 = createSprite(200, 1, 400, 5);
 l7.shapeColor = "white";
 
-var l8 = createSprite(200, 399, 400, 5);
+let l8 = createSprite(200, 399, 400, 5);
 l8.shapeColor = "white";
 
-var l9 = createSprite(1, 200, 5, 400);
+let l9 = createSprite(1, 200, 5, 400);
 l9.shapeColor = "white";
 
-var l10 = createSprite(399, 200, 5, 400);
+let l10 = createSprite(399, 200, 5, 400);
 l10.shapeColor = "white";
 
 
@@ -57,7 +57,7 @@ l10.shapeColor = "white";
 function draw() {
     background("green");
 
-    for (var i = 0; i < 400; i = i + 20) {
+    for (let i = 0; i < 400; i = i + 20) {
         line(i, 200, i + 10, 200);
     }
 

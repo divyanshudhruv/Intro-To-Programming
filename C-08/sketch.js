@@ -1,77 +1,77 @@
 //creating boy, land and corona
-var land = createSprite(200, 350, 350, 2);
+let land = createSprite(200, 350, 350, 2);
 land.setAnimation("land");
 
-var boy = createSprite(200, 260, 20, 20);
+let boy = createSprite(200, 260, 20, 20);
 boy.setAnimation("boy");
 boy.width = 60;
 boy.height = 90;
 
-var c1 = createSprite(30, -30, 20, 20);
+let c1 = createSprite(30, -30, 20, 20);
 c1.setAnimation("Corona");
 c1.height = 45;
 c1.width = 45;
 
-var c2 = createSprite(95, -30, 20, 20);
+let c2 = createSprite(95, -30, 20, 20);
 c2.setAnimation("Corona");
 c2.height = 45;
 c2.width = 45;
 
-var c3 = createSprite(160, -30, 20, 20);
+let c3 = createSprite(160, -30, 20, 20);
 c3.setAnimation("Corona");
 c3.height = 45;
 c3.width = 45;
 
-var c4 = createSprite(225, -30, 20, 20);
+let c4 = createSprite(225, -30, 20, 20);
 c4.setAnimation("Corona");
 c4.height = 45;
 c4.width = 45;
 
-var c5 = createSprite(290, -30, 20, 20);
+let c5 = createSprite(290, -30, 20, 20);
 c5.setAnimation("Corona");
 c5.height = 45;
 c5.width = 45;
 
-var c6 = createSprite(355, -30, 20, 20);
+let c6 = createSprite(355, -30, 20, 20);
 c6.setAnimation("Corona");
 c6.height = 45;
 c6.width = 45;
 
-//variable to store different state of game
-var gameState = "serve";
+//letiable to store different state of game
+let gameState = "serve";
 
-//variable to keep score
-var score = 0;
-var life = 3;
+//letiable to keep score
+let score = 0;
+let life = 3;
 
 //level 2
 
-var level1 = createSprite(30, -30, 10, 10);
+let level1 = createSprite(30, -30, 10, 10);
 level1.setAnimation("Corona");
 level1.height = 45;
 level1.width = 45;
 
-var q2 = createSprite(95, -30, 10, 10);
+let q2 = createSprite(95, -30, 10, 10);
 q2.setAnimation("Corona");
 q2.height = 45;
 q2.width = 45;
 
-var q3 = createSprite(170, -30, 10, 10);
+let q3 = createSprite(170, -30, 10, 10);
 q3.setAnimation("Corona");
 q3.width = 45;
 q3.height = 45;
 
-var q4 = createSprite(240, -30, 10, 10);
+let q4 = createSprite(240, -30, 10, 10);
 q4.setAnimation("Corona");
 q4.height = 45;
 q4.width = 45;
 
-var q5 = createSprite(305, -30, 10, 10);
+let q5 = createSprite(305, -30, 10, 10);
 q5.setAnimation("Corona");
 q5.width = 45;
 q5.height = 45;
 
-var q6 = createSprite(370, -30, 10, 10);
+let q6 = createSprite(370, -30, 10, 10);
 q6.setAnimation("Corona");
 q6.width = 45;
 q6.height = 45;

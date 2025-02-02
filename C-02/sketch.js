@@ -1,14 +1,14 @@
-var pin1 = createSprite(200, 31,20,20);
-var pin2 = createSprite(180, 51,20,20);
-var pin3 = createSprite(220,51,20,20);
-var pin4 = createSprite(200, 71,20,20);
-var pin5 = createSprite(240, 71,20,20);
-var pin6 = createSprite(160, 71,20,20);
-var pin7 = createSprite(180, 91,20,20);
-var pin8 = createSprite(218, 91,20,20);
-var pin9 = createSprite(200, 108,20,20);
+let pin1 = createSprite(200, 31,20,20);
+let pin2 = createSprite(180, 51,20,20);
+let pin3 = createSprite(220,51,20,20);
+let pin4 = createSprite(200, 71,20,20);
+let pin5 = createSprite(240, 71,20,20);
+let pin6 = createSprite(160, 71,20,20);
+let pin7 = createSprite(180, 91,20,20);
+let pin8 = createSprite(218, 91,20,20);
+let pin9 = createSprite(200, 108,20,20);
 
-var ball = createSprite(200, 330,20,20);
+let ball = createSprite(200, 330,20,20);
 ball.shapeColor='white';
 
 ball.velocityY=-2.5;

@@ -1,36 +1,36 @@
-var diamond=createSprite(380,40,15,15);
+let diamond=createSprite(380,40,15,15);
 diamond.shapeColor='white';
 
-var l=createSprite(200,200,5,200);
+let l=createSprite(200,200,5,200);
 l.velocityX=0;
 l.velocityY=2;
 l.shapeColor='red';
 
-var thief=createSprite(10,370,15,15);
+let thief=createSprite(10,370,15,15);
 thief.velocityX=0;
 thief.velocityY=0;
 
-var laser1=createSprite(100,333,200,5);
+let laser1=createSprite(100,333,200,5);
 laser1.shapeColor='red';
 laser1.velocityY=2;
 laser1.velocityX=2;
 
-var laser2=createSprite(300,282,200,5);
+let laser2=createSprite(300,282,200,5);
 laser2.shapeColor='red';
 laser2.velocityY=0;
 laser2.velocityX=-2;
 
-var laser3=createSprite(300,63,200,5);
+let laser3=createSprite(300,63,200,5);
 laser3.shapeColor='red';
 laser3.velocityY=-2;
 laser3.velocityX=-2;
 
-var laser4=createSprite(100,114,200,5);
+let laser4=createSprite(100,114,200,5);
 laser4.shapeColor='red';
 laser4.velocityY=0;
 laser4.velocityX=2;
 
-var down=createSprite(200,400,400,10);
+let down=createSprite(200,400,400,10);
 down.shapeColor='red';
 
 function draw() {

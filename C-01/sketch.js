@@ -1,4 +1,4 @@
-var b1, b2, b3,b4,b5,b6,b7,b8,b9,b10;
+let b1, b2, b3,b4,b5,b6,b7,b8,b9,b10;
 
 function setup() {
   createCanvas(400, 400);
